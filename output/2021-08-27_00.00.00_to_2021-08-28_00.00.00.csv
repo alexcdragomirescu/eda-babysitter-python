@@ -1,0 +1,45 @@
+Target,Type,OK,NOK,Average Time,Maximum Time,Error Codes,Users
+,LOGIN,18563,0,0:00:00.000274,0:00:02.000917,,admin - 74; mml8010 - 12; cai3guser - 18477
+,LOGOUT,18427,75,0:00:00.000048,0:00:00.000260,1010 - 75,admin - 74; mml8010 - 10; Invalid session - 75; cai3guser - 18343
+MMMODIFYSC@http://schemas.ericsson.com/ma/CA/GMMgeneralProvSV/,SET,1943,0,0:00:00.001280,0:00:01.000284,,msa - 1943
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/GsmAuc/,GET,47,0,0:00:00.000055,0:00:00.000073,,msa - 47
+MMLANG@http://schemas.ericsson.com/ma/CA/GMMgeneralProvSV/,SET,1487,0,0:00:00.437601,0:00:07.000065,,msa - 1487
+ESDACREATE@http://schemas.ericsson.com/ma/CA/GMMECEsdaSV/,CREATE,146,0,0:00:00.027439,0:00:03.000290,,msa - 146
+MMMODIFYLP@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,SET,1597,0,0:00:00.000077,0:00:00.000135,,msa - 1597
+Equipment@http://schemas.ericsson.com/ma/EIR/,CREATE,106,0,0:00:00.000047,0:00:00.000055,,cai3guser - 106
+Equipment@http://schemas.ericsson.com/ma/EIR/,DELETE,7,0,0:00:00.000086,0:00:00.000099,,cai3guser - 7
+EPSMultiSC@http://schemas.ericsson.com/ma/HSS/,GET,13657,52,0:00:00.000063,0:00:00.000301,13001 - 2; 1010 - 50,Invalid session - 50; msa - 13559; cai3guser - 100
+XFPROVMODIFYLISTGROUPDATAPLANREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,SET,1,1,0:00:00.000292,0:00:00.000561,83300 - 1,msa - 2
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/GsmHlr/,GET,76144,12394,0:00:00.000126,0:00:00.000589,13 - 3; 14 - 12391,msa - 88538
+XFPROVGETREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,GET,62554,82,0:00:00.000037,0:00:00.000295,83310 - 82,msa - 62636
+SAPCSubscription@http://schemas.ericsson.com/ma/SAPC/,SET,107,67,0:00:00.000038,0:00:00.000076,1010 - 17; 17005 - 49; 1101 - 1,Invalid session - 17; cai3guser - 157
+SAPCSubscription@http://schemas.ericsson.com/ma/SAPC/,GET,5,2,0:00:00.000022,0:00:00.000033,1010 - 1; 17002 - 1,Invalid session - 1; cai3guser - 6
+SAPCFamily@http://schemas.ericsson.com/ma/SAPC/,SET,78,16,0:00:00.000062,0:00:00.000108,1010 - 3; 1101 - 13,Invalid session - 3; cai3guser - 91
+MMDELETEGROUP@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,DELETE,613,2,0:00:00.000126,0:00:00.000259,83410 - 2,msa - 615
+MMDELETETARIFF@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,DELETE,4463,406,0:00:00.000188,0:00:00.000600,74400 - 1; 71310 - 405,msa - 4869
+XFPROVMODIFYLISTBASEDATAPLANREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,SET,7,0,0:00:00.000206,0:00:00.000268,,msa - 7
+MMCREATE@http://schemas.ericsson.com/ma/CA/GMMgeneralProvSV/,CREATE,5791,16,0:00:02.756495,0:00:15.000924,71110 - 4; 73110 - 12,msa - 5807
+ESDAGET@http://schemas.ericsson.com/ma/CA/GMMECEsdaSV/,GET,5536,2461,0:00:00.007917,0:00:03.000285,84310 - 2461,msa - 7997
+MMDELETE@http://schemas.ericsson.com/ma/CA/GMMgeneralProvSV/,DELETE,5182,20,0:00:01.717102,0:01:02.000982,74400 - 3; 3005 - 17,msa - 5202
+MMCREATETARIFF@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,CREATE,10871,1,0:00:00.001156,0:00:05.000309,74200 - 1,msa - 10872
+XFPROVSETUPSELLREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,SET,2066,0,0:00:00.000259,0:00:00.000687,,msa - 2066
+MMMODIFYUSERGROUP@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,SET,1951,2,0:00:00.000119,0:00:00.000209,83200 - 2,msa - 1953
+ESDASET@http://schemas.ericsson.com/ma/CA/GMMECEsdaSV/,SET,382,0,0:00:00.028841,0:00:03.000292,,msa - 382
+MMCREATEGROUP@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,CREATE,202,0,0:00:00.000337,0:00:00.000821,,msa - 202
+MMGETTARIFFGROUP@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,GET,1243,0,0:00:00.000036,0:00:00.000120,,msa - 1243
+VMS@http://schemas.ericsson.com/ma/CA/VMS/,GET,5016,169,0:00:00.036938,0:00:06.000407,78310 - 169,msa - 5185
+MMMODIFYOPT@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,SET,155,0,0:00:00.000199,0:00:00.000326,,msa - 155
+XFPROVCREATELISTREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,CREATE,5083,2,0:00:00.000122,0:00:00.000262,83310 - 2,msa - 5085
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/MTAS/,SET,3,0,0:00:00.000289,0:00:00.000353,,msa - 2; cai3guser - 1
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/MTAS/,CREATE,7396,0,0:00:00.000213,0:00:00.000444,,cai3guser - 7396
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/MTAS/,GET,23,0,0:00:00.000100,0:00:00.000136,,msa - 23
+Subscription@http://schemas.ericsson.com/ema/UserProvisioning/MTAS/,DELETE,10645,0,0:00:00.000376,0:00:03.000098,,cai3guser - 10645
+MMGETTARIFF@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,GET,61142,6460,0:00:00.000278,0:00:02.000166,83310 - 6460,msa - 67602
+ESDADELETE@http://schemas.ericsson.com/ma/CA/GMMECEsdaSV/,DELETE,492,0,0:00:00.006129,0:00:01.000049,,msa - 492
+XFPROVCREATELISTGROUPREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,CREATE,409,0,0:00:00.000388,0:00:00.000794,,msa - 409
+NumberPortability@http://schemas.ericsson.com/ema/UserProvisioning/GsmFnr/,CREATE,8,7,0:00:00.000027,0:00:00.000053,2 - 6; 1010 - 1,Invalid session - 1; cai3guser - 14
+NumberPortability@http://schemas.ericsson.com/ema/UserProvisioning/GsmFnr/,DELETE,13,3,0:00:00.000024,0:00:00.000032,1010 - 3,Invalid session - 3; cai3guser - 13
+XFPROVCREATEREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,CREATE,684,0,0:00:00.000121,0:00:00.000212,,msa - 684
+XFPROVSETGROUPUPSELLREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,SET,560,1,0:00:00.002122,0:00:01.000148,83200 - 1,msa - 561
+MMSETUPSELL@http://schemas.ericsson.com/ma/CA/GMMdataTariffProvSV/,SET,1600,7,0:00:00.000828,0:00:01.000226,74200 - 4; 74210 - 3,msa - 1607
+XFPROVGETGROUPREFILL@http://schemas.ericsson.com/ma/CA/MasmovilProv/,GET,2030,403,0:00:00.000034,0:00:00.000114,83300 - 403,msa - 2433
